@@ -6,7 +6,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/
+      defaultZone: http://${EUREKA_ZONE_HOST:124.156.120.130}:${EUREKA_ZONE_PORT:8761}/eureka/
 
 spring:
   application:

@@ -12,7 +12,7 @@ spring:
   application:
     name: qt-client
 #  rabbitmq:
-#    host: ${RABBIT_MQ_HOST:localhost}
+#    host: ${RABBIT_MQ_HOST:124.156.120.130}
 #    port: ${RABBIT_MQ_PORT:5672}
 #    username: ${RABBIT_MQ_USERNAME:yang}
 #    password: ${RABBIT_MQ_PASSWORD:yang}

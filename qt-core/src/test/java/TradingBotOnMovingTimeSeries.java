@@ -119,7 +119,7 @@
 //        return new BaseBar(ZonedDateTime.now(), openPrice, maxPrice, minPrice, closePrice, PrecisionNum.valueOf(1), PrecisionNum.valueOf(1));
 //    }
 //
-//    public static void main(String[] args) throws InterruptedException {
+//    public static void main2(String[] args) throws InterruptedException {
 //
 //        System.out.println("********************** Initialization **********************");
 //        // Getting the time series

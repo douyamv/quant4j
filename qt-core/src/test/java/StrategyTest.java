@@ -41,7 +41,7 @@ public class StrategyTest {
     static SMAIndicator sma9;
     static SMAIndicator sma26;
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         //get kine
         List<Kline> kline = Main.getKline("1min", "2000");
         //builder time series

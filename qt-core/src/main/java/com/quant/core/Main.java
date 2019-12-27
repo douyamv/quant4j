@@ -42,10 +42,10 @@ import org.ta4j.core.trading.rules.CrossedUpIndicatorRule;
  * Created by yang on 2019/5/20.
  */
 public class Main {
-    public static void main(String[] args) {
-        testRsi();
-
-    }
+    //public static void main2(String[] args) {
+    //    testRsi();
+    //
+    //}
 
     public static final int PERIODS_AVERAGE = 14;
 

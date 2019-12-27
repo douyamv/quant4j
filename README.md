@@ -56,7 +56,7 @@ npm install --registry=https://registry.npm.taobao.org
 
 # 启动服务
 npm run dev   
-浏览器访问 http://localhost:9527
+浏览器访问 http://124.156.120.130:9527
 
 
 #后端

@@ -73,7 +73,7 @@ public class MysqlGenerator {
     private static File file = new File(packageName);
     private static String path = file.getAbsolutePath();
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         // 自定义需要填充的字段
         List<TableFill> tableFillList = new ArrayList<>();
         tableFillList.add(new TableFill("ASDD_SS", FieldFill.INSERT_UPDATE));
