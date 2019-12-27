@@ -178,7 +178,7 @@ public class Main {
         long min20 = currentTimeMillis + 20 * 60 * 1000;
         HashMap<String, Depth> depthHashMap = new HashMap<>();
         VpnProxyConfig vpnProxyConfig = new VpnProxyConfig();
-        vpnProxyConfig.setEnable(true);
+        vpnProxyConfig.setEnable(false);
         vpnProxyConfig.setIp("127.0.0.1");
         vpnProxyConfig.setPort(1088);
         ApiClient apiClient = new ApiClient(vpnProxyConfig);
@@ -286,7 +286,7 @@ public class Main {
 
     public static List<Kline> getKline(String tyoe, String size) {
         VpnProxyConfig vpnProxyConfig = new VpnProxyConfig();
-        vpnProxyConfig.setEnable(true);
+        vpnProxyConfig.setEnable(false);
         vpnProxyConfig.setIp("127.0.0.1");
         vpnProxyConfig.setPort(1088);
         ApiClient apiClient = new ApiClient(vpnProxyConfig);
