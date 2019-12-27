@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <artifactId>qt-core</artifactId>
     <properties>
-        <jackson.version>2.9.10.1</jackson.version>
+        <jackson.version>2.9.6</jackson.version>
         <okhttp.version>3.6.0</okhttp.version>
         <slf4j.version>1.7.24</slf4j.version>
     </properties>
@@ -54,6 +54,12 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.ta4j/ta4j-core -->
+        <dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.13-20190907.082949-6</version>
+        </dependency>
 
     </dependencies>
 
